@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite frontend",
+    "dev": "vite --root frontend",
     "build": "vite build frontend",
     "preview": "vite preview frontend",
-    "backend": "npm run build && node backend/server.cjs",
+    "backend": "node backend/server.cjs",
     "server": "node backend/server.cjs"
   },
   "dependencies": {
